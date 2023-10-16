@@ -1,24 +1,17 @@
+import GestionAnimaux.Animal;
+
 public class ZooManagement {
     public static void main(String [] args)
     {
         Animal lion=new Animal();
-        lion.name="lion";
-        System.out.println("lion");
-        System.out.println("family :"+lion.family);
-        System.out.println("name :"+lion.name);
-        System.out.println("Age :"+lion.age);
-        System.out.println("type :"+lion.isMammal);
+
 Animal chat=new Animal(1,"chat",null,false);
 System.out.println("Chat");
-        System.out.println("family :"+chat.family);
-        System.out.println("name :"+chat.name);
-        System.out.println("Age :"+chat.age);
-        System.out.println("type :"+chat.isMammal);
+
         System.out.println("Chien");
 Animal chien=new Animal(2,"chie");
        // System.out.println("family :"+chien.family);
-        System.out.println("name :"+chien.name);
-        System.out.println("Age :"+chien.age);
+
        // System.out.println("type :"+chien.isMammal);
 
 chien.display();

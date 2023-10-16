@@ -1,3 +1,5 @@
+import GestionAnimaux.Animal;
+
 public class TestTableau {
 
     public static void main(String[] args) {
@@ -34,7 +36,7 @@ public class TestTableau {
        for (int i=0;i<tab4.length;i++)
            System.out.println(tab4[i]);
 
-       Animal [] taban=new Animal[3];
+       Animal[] taban=new Animal[3];
 
        Animal a1=new Animal(1,"chat");
        Animal a2=new Animal(2,"chien");

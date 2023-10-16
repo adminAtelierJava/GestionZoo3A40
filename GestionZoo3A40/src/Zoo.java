@@ -1,8 +1,10 @@
+import GestionAnimaux.Animal;
+
 public class Zoo {
 
     String name,city;
     int nbrCages;
-    Animal [] animals;
+    Animal[] animals;
 
     int nbrAnim;
 
@@ -54,7 +56,7 @@ public Zoo(){}
 
         for (int i=0;i<nbrAnim;i++)
         {
-            if(animals[i].name==a.name)
+            if(animals[i].getName()==a.getName())
                 return i;
 
         }
